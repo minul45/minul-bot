@@ -1,7 +1,7 @@
 main.py
 import os
 import telebot
-bot = telebot.TeleBot("API Key Here")
+bot = telebot.TeleBot("1958941386:AAGlQ7POBmel5JftXalNsvFOTGWNap9Sm6I")
 @bot.message_handler(commands=["start"])
 def send_welcome(message):
      bot.reply_to(message,"hello i'm minul chat bot")
